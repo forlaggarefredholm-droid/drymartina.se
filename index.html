@@ -1,1 +1,209 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#123d4a">
+  <meta name="description" content="Manual och digital båtpärm för Saga 27 Dry Martina.">
+  <title>Dry Martina – Saga 27</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#innehall">Hoppa till innehållet</a>
 
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#start" aria-label="Dry Martina, startsida">
+        <span class="brand-mark" aria-hidden="true">⚓</span>
+        <span>
+          <strong>Dry Martina</strong>
+          <small>Saga 27</small>
+        </span>
+      </a>
+
+      <button class="menu-button" aria-expanded="false" aria-controls="huvudmeny">
+        Meny
+      </button>
+
+      <nav id="huvudmeny" class="main-nav" aria-label="Huvudmeny">
+        <a href="#manual">Manual</a>
+        <a href="#checklistor">Checklistor</a>
+        <a href="#felsokning">Felsökning</a>
+        <a href="#dokument">Dokument</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="innehall">
+    <section id="start" class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Digital båtpärm</p>
+        <h1>Allt du behöver ombord på <em>Dry Martina</em></h1>
+        <p class="intro">
+          Snabba instruktioner för start, körning, förtöjning och felsökning.
+          Anpassad för mobilen när du står vid båten.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#manual">Öppna manualen</a>
+          <a class="button secondary" href="#checklistor">Visa checklistor</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="quick-links" aria-label="Snabblänkar">
+      <a class="quick-card" href="#starta-motorn">
+        <span aria-hidden="true">🔑</span>
+        <strong>Starta motorn</strong>
+        <small>Steg för steg</small>
+      </a>
+      <a class="quick-card" href="#fortojning">
+        <span aria-hidden="true">🪢</span>
+        <strong>Förtöjning</strong>
+        <small>För och akter</small>
+      </a>
+      <a class="quick-card" href="#felsokning">
+        <span aria-hidden="true">🔧</span>
+        <strong>Motorn startar inte</strong>
+        <small>Snabb felsökning</small>
+      </a>
+      <a class="quick-card" href="#checklistor">
+        <span aria-hidden="true">✓</span>
+        <strong>Checklistor</strong>
+        <small>Före och efter turen</small>
+      </a>
+    </section>
+
+    <section id="manual" class="content-section">
+      <div class="section-heading">
+        <p class="eyebrow">Manual</p>
+        <h2>Praktiska instruktioner</h2>
+        <p>Den fullständiga texten och bilderna kan läggas in i dessa avsnitt.</p>
+      </div>
+
+      <article id="starta-motorn" class="manual-card">
+        <div class="manual-icon" aria-hidden="true">🔑</div>
+        <div>
+          <h3>Starta motorn</h3>
+          <ol>
+            <li>Kontrollera att båten är korrekt förtöjd och att ingen tamp kan nå propellern.</li>
+            <li>Kontrollera huvudströmbrytare, bränsle och reglage.</li>
+            <li>Starta med nyckeln och kontrollera att kylvatten kommer ut.</li>
+            <li>Låt motorn gå lugnt innan du lägger i växel.</li>
+          </ol>
+          <p class="notice">Ersätt denna preliminära text med den överenskomna manualtexten innan båten används enbart med webbmanualen.</p>
+        </div>
+      </article>
+
+      <article id="fortojning" class="manual-card">
+        <div class="manual-icon" aria-hidden="true">🪢</div>
+        <div>
+          <h3>Förtöjning</h3>
+          <p>
+            Här läggs bilderna och de exakta instruktionerna för förtöjning vid
+            flytbryggan i fören och aktern.
+          </p>
+          <div class="image-placeholder">
+            <span aria-hidden="true">📷</span>
+            Bilder för förtöjning läggs i mappen <code>bilder</code>.
+          </div>
+        </div>
+      </article>
+
+      <article id="under-gang" class="manual-card">
+        <div class="manual-icon" aria-hidden="true">⛵</div>
+        <div>
+          <h3>Under gång</h3>
+          <p>
+            Här samlas instruktioner om reglage, manövrering, instrument,
+            hastighet och sådant som är särskilt viktigt för Dry Martina.
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <section id="checklistor" class="content-section alt">
+      <div class="section-heading">
+        <p class="eyebrow">Checklistor</p>
+        <h2>Före och efter turen</h2>
+        <p>Kryssningarna sparas bara på den enhet du använder.</p>
+      </div>
+
+      <div class="checklist-grid">
+        <article class="checklist">
+          <h3>Före avgång</h3>
+          <label><input type="checkbox"> Förtöjningar och fendrar kontrollerade</label>
+          <label><input type="checkbox"> Huvudström och bränsle kontrollerade</label>
+          <label><input type="checkbox"> Motor startad och kylvatten kontrollerat</label>
+          <label><input type="checkbox"> Tampar fria från propellern</label>
+          <label><input type="checkbox"> Utrustning och passagerare klara</label>
+        </article>
+
+        <article class="checklist">
+          <h3>Efter turen</h3>
+          <label><input type="checkbox"> Båten säkert förtöjd</label>
+          <label><input type="checkbox"> Fendrar rätt placerade</label>
+          <label><input type="checkbox"> Motor och huvudström avstängda</label>
+          <label><input type="checkbox"> Luckor och kapell kontrollerade</label>
+          <label><input type="checkbox"> Nycklar och värdesaker medtagna</label>
+        </article>
+      </div>
+
+      <button id="reset-checklists" class="button text-button" type="button">
+        Nollställ checklistorna
+      </button>
+    </section>
+
+    <section id="felsokning" class="content-section">
+      <div class="section-heading">
+        <p class="eyebrow">Felsökning</p>
+        <h2>Om motorn inte startar</h2>
+      </div>
+
+      <article class="warning-card">
+        <h3>Kontrollera först</h3>
+        <ul>
+          <li>Att huvudströmmen är på.</li>
+          <li>Att reglaget står i neutralläge.</li>
+          <li>Att batteriet ger ström och att anslutningarna sitter fast.</li>
+          <li>Att bränslekranen och bränsletillförseln är rätt inställda.</li>
+        </ul>
+      </article>
+
+      <article class="danger-card">
+        <h3>Sista utväg: knackning vid startmotorn</h3>
+        <p>
+          Enligt den muntliga instruktionen kan någon försiktigt knacka på den
+          markerade delen av startmotorn samtidigt som en annan person vrider
+          om nyckeln. De två fotografier som visar exakt punkt ska placeras här.
+        </p>
+        <p>
+          <strong>Säkerhet:</strong> håll händer, kläder och verktyg borta från
+          remmar och andra rörliga eller heta delar. Detta ersätter inte en
+          fackmässig kontroll av startmotor och elsystem.
+        </p>
+      </article>
+    </section>
+
+    <section id="dokument" class="content-section alt">
+      <div class="section-heading">
+        <p class="eyebrow">Dokument</p>
+        <h2>Manualer och filer</h2>
+      </div>
+
+      <div class="document-card">
+        <div>
+          <h3>PDF-manual</h3>
+          <p>Lägg PDF-filen i mappen <code>dokument</code> och ändra länken nedan.</p>
+        </div>
+        <a class="button secondary disabled" href="#" aria-disabled="true">PDF kommer snart</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p><strong>Dry Martina</strong> · Saga 27</p>
+    <p>Privat digital båtpärm</p>
+  </footer>
+</body>
+</html>
